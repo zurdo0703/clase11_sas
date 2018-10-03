@@ -1,0 +1,35 @@
+$colorfondo: red;
+$tamanoLetra: x-large;
+$letraMayuscula: uppercase;
+
+body {
+	background: $colorfondo;
+	font-size: $tamanoLetra;
+}
+
+h1,h2,h3,h4,h5,h6 {
+	text-transform: $letraMayuscula;
+}
+
+// Primer nivel
+.main-nav {
+	// segundo nivel
+	ul {
+		list-style: none;
+		margin: 0;
+		padding: 0;
+	}
+	li {
+		display: inline-block;
+	}
+	a {
+		display: block;
+		text-decoration: none;
+		// tercer nivel
+		&:hover {
+			text-decoration: underline;
+		}
+	}
+
+}
+

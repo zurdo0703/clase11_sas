@@ -1,0 +1,24 @@
+
+Se debe instalar Ruby 
+
+ejecutar los comandos despues de la instalacion 
+
+gem install sass
+sass -v
+
+istalar un Package Control
+
+Sass
+
+comando sass
+
+sass ejemplo_scss.scss ejemplo_scss.css 
+
+Se mantiene para poder ir visualizando los cambios sin tener que estar compilando
+
+sass --watch ejemplo_scss.scss:ejemplo_scss.css
+
+convertir de scss a sass
+
+sass-convert ejemplo_scss.scss ejemplo_scss.sass
+sass ejemplo_scss.scss ejemplo_scss.css -s compressed 
